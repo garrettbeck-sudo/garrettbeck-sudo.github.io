@@ -1,0 +1,30 @@
+title: Garrett Beck
+description: Garrett Beck — solution-oriented leader, operator, and builder.
+url: "https://garrettbeck-sudo.github.io"
+baseurl: ""
+repository: garrettbeck-sudo/garrettbeck-sudo.github.io
+github_username: garrettbeck-sudo
+author:
+  name: Garrett Beck
+  email: garrett_beck@berkeley.edu
+  linkedin: https://www.linkedin.com/in/garrettanthonybeck/
+
+markdown: kramdown
+permalink: pretty
+timezone: America/Los_Angeles
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  typographic_symbols:
+    hellip: ...
+    mdash: —
+    ndash: –
+
+exclude:
+  - README.md
+  - PLAN.md
+  - attached_assets
+  - .agents
+  - .git
+  - .gitignore

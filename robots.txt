@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://garrettbeck-sudo.github.io/sitemap.xml

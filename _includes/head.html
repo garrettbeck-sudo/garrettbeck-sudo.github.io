@@ -1,0 +1,22 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f3ee">
+  <meta name="color-scheme" content="light dark">
+  {% assign page_description = page.description | default: site.description %}
+  <meta name="description" content="{{ page_description | escape }}">
+  <meta name="author" content="{{ site.author.name | escape }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <meta property="og:title" content="{{ page.title | default: site.title | escape }}">
+  <meta property="og:description" content="{{ page_description | escape }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ page.title | default: site.title | escape }}">
+  <meta name="twitter:description" content="{{ page_description | escape }}">
+  <title>
+    {% if page.title %}{{ page.title | escape }} · {% endif %}{{ site.title | escape }}
+  </title>
+  <link rel="icon" type="image/svg+xml" href="{{ '/assets/favicon.svg' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
