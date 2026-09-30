@@ -47,10 +47,11 @@ description: Learn about Garrett Beck’s leadership background, education, and 
   </div>
 </section>
 
-<section class="section container home-cta" aria-labelledby="about-cta-title">
-  <div>
+<section class="profile-panel" aria-labelledby="about-cta-title">
+  <div class="panel-body">
     <p class="eyebrow">See the work</p>
-    <h2 id="about-cta-title">Leadership is easiest to understand in context.</h2>
+    <h2 class="intro-title" id="about-cta-title">Leadership is easiest to understand in context.</h2>
+    <p class="intro-copy">Explore the roles, teams, and projects that shaped my experience.</p>
+    <a class="profile-button profile-button-primary" href="{{ '/experience/' | relative_url }}">View work experience <span aria-hidden="true">→</span></a>
   </div>
-  <a class="button button-primary" href="{{ '/experience/' | relative_url }}">View experience <span aria-hidden="true">↗</span></a>
 </section>

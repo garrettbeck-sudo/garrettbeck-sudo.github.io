@@ -1,12 +1,17 @@
 <!doctype html>
-<html lang="en" data-theme="light">
+<html lang="en" data-theme="dark">
   {% include head.html %}
   <body>
     <a class="skip-link" href="#main-content">Skip to content</a>
     <div class="site-shell">
       {% include header.html %}
       <main id="main-content" class="site-main">
-        {{ content }}
+        <div class="profile-layout">
+          {% include profile-sidebar.html %}
+          <div class="profile-content">
+            {{ content }}
+          </div>
+        </div>
       </main>
       {% include footer.html %}
     </div>

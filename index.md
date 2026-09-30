@@ -1,64 +1,82 @@
 ---
 layout: default
-title: Home
-description: Garrett Beck is a solution-oriented leader, operator, and builder focused on improving organizations and communities.
+title: Overview
+description: Garrett Beck is a U.S. Army medical leader and co-founder of MIL MOVE, focused on healthcare operations, leadership, and service.
 ---
 
-<section class="hero container" aria-labelledby="hero-title">
-  <p class="eyebrow">Leader · Operator · Builder</p>
-  <h1 id="hero-title">Making complex work <em>clearer</em>, more useful, and more human.</h1>
-  <p class="hero-intro">I’m Garrett Beck — a U.S. Army medical leader, entrepreneur, and systems-minded problem-solver who builds practical solutions for people and organizations.</p>
-  <div class="hero-actions">
-    <a class="button button-primary" href="{{ '/experience/' | relative_url }}">View experience <span aria-hidden="true">↗</span></a>
-    <a class="text-link" href="{{ '/contact/' | relative_url }}">Let’s connect <span aria-hidden="true">→</span></a>
+<section class="profile-panel" aria-labelledby="overview-title">
+  <div class="panel-header">
+    <span class="panel-title">Profile overview</span>
+    <span class="panel-caption">Garrett Beck · Portfolio</span>
+  </div>
+  <div class="panel-body">
+    <p class="eyebrow">Leader · Operator · Builder</p>
+    <h2 class="intro-title" id="overview-title">Hi, I’m Garrett Beck.</h2>
+    <p class="intro-copy">I’m a U.S. Army medical officer and entrepreneur. My work has centered on <strong>leading healthcare teams, improving readiness and patient operations, and building practical support for service members.</strong></p>
+    <ul class="profile-highlights">
+      <li>Currently lead a medical readiness company of <strong>377 personnel</strong>, supporting care for more than <strong>70,000 beneficiaries.</strong></li>
+      <li>Co-founded <strong>MIL MOVE</strong> to help service members navigate real estate and the moving process.</li>
+      <li>Earned a B.S. from the <strong>United States Military Academy</strong> with a concentration in Systems Engineering.</li>
+    </ul>
   </div>
 </section>
 
-<section class="signal-band" aria-label="Professional highlights">
-  <div class="container signal-grid">
-    <div class="signal-item">
-      <strong>6+</strong>
-      <span>years of leadership experience</span>
-    </div>
-    <div class="signal-item">
-      <strong>377</strong>
-      <span>medical personnel currently led</span>
-    </div>
-    <div class="signal-item">
-      <strong>$4.6M</strong>
-      <span>MIL MOVE transaction volume</span>
+<section class="profile-panel" aria-labelledby="focus-title">
+  <div class="panel-header">
+    <span class="panel-title" id="focus-title">Areas of focus</span>
+    <span class="panel-caption">Work and service</span>
+  </div>
+  <div class="panel-body focus-tags">
+    <span class="profile-tag">Healthcare operations</span>
+    <span class="profile-tag">Medical readiness</span>
+    <span class="profile-tag">Team leadership</span>
+    <span class="profile-tag">Process improvement</span>
+    <span class="profile-tag">Entrepreneurship</span>
+    <span class="profile-tag">Real estate</span>
+    <span class="profile-tag">Systems engineering</span>
+  </div>
+</section>
+
+<section class="profile-panel" aria-labelledby="recent-work-title">
+  <div class="panel-header">
+    <span class="panel-title" id="recent-work-title">Recent work</span>
+    <a class="panel-caption" href="{{ '/experience/' | relative_url }}">View all experience →</a>
+  </div>
+  <div class="panel-body">
+    <div class="activity-list">
+      <article class="activity-item">
+        <span class="activity-marker" aria-hidden="true">01</span>
+        <div>
+          <h3 class="activity-title">Medical Readiness Company Commander</h3>
+          <p class="activity-meta">U.S. Army · Blanchfield Army Community Hospital · Nov 2023—present</p>
+          <p class="activity-copy">Leading readiness and healthcare operations across a multi-state beneficiary population.</p>
+        </div>
+      </article>
+      <article class="activity-item">
+        <span class="activity-marker" aria-hidden="true">02</span>
+        <div>
+          <h3 class="activity-title">Co-Founder &amp; COO</h3>
+          <p class="activity-meta">MIL MOVE · May 2024—present</p>
+          <p class="activity-copy">Building a real estate and moving resource for service members and their families.</p>
+        </div>
+      </article>
+      <article class="activity-item">
+        <span class="activity-marker" aria-hidden="true">03</span>
+        <div>
+          <h3 class="activity-title">Division Patient Administrator</h3>
+          <p class="activity-meta">U.S. Army · 101st Airborne Division · 2021—2023</p>
+          <p class="activity-copy">Coordinated patient disposition, medical reporting, and training across a division healthcare system.</p>
+        </div>
+      </article>
     </div>
   </div>
 </section>
 
-<section class="section container" aria-labelledby="focus-title">
-  <div class="section-heading">
-    <p class="eyebrow">What I bring</p>
-    <h2 id="focus-title">A bias toward useful action.</h2>
+<section class="profile-panel" aria-label="Career highlights">
+  <div class="panel-header"><span class="panel-title">Selected impact</span></div>
+  <div class="stats-grid">
+    <div class="stat-item"><span class="stat-value">377</span><span class="stat-label">medical personnel led</span></div>
+    <div class="stat-item"><span class="stat-value">70K+</span><span class="stat-label">healthcare beneficiaries</span></div>
+    <div class="stat-item"><span class="stat-value">$4.6M</span><span class="stat-label">MIL MOVE transaction volume</span></div>
   </div>
-  <div class="focus-grid">
-    <article class="focus-card">
-      <span class="card-number">01</span>
-      <h3>Lead through complexity</h3>
-      <p>Aligning people, priorities, and resources when the path forward is not obvious.</p>
-    </article>
-    <article class="focus-card">
-      <span class="card-number">02</span>
-      <h3>Build better systems</h3>
-      <p>Turning recurring friction into clear processes that help teams move with confidence.</p>
-    </article>
-    <article class="focus-card">
-      <span class="card-number">03</span>
-      <h3>Serve the wider community</h3>
-      <p>Creating practical ventures and partnerships that strengthen the people they are built for.</p>
-    </article>
-  </div>
-</section>
-
-<section class="section section-rule container home-cta" aria-labelledby="cta-title">
-  <div>
-    <p class="eyebrow">Next chapter</p>
-    <h2 id="cta-title">Interested in the work behind the outcomes?</h2>
-  </div>
-  <a class="button button-outline" href="{{ '/about/' | relative_url }}">More about me <span aria-hidden="true">→</span></a>
 </section>

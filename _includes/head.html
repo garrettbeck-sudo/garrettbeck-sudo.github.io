@@ -1,7 +1,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f5f3ee">
+  <meta name="theme-color" content="#0d1117">
   <meta name="color-scheme" content="light dark">
   {% assign page_description = page.description | default: site.description %}
   <meta name="description" content="{{ page_description | escape }}">
@@ -11,6 +11,7 @@
   <meta property="og:description" content="{{ page_description | escape }}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="{{ '/assets/images/garrett-beck.jpg' | absolute_url }}">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="{{ page.title | default: site.title | escape }}">
   <meta name="twitter:description" content="{{ page_description | escape }}">

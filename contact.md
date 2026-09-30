@@ -10,7 +10,7 @@ description: Get in touch with Garrett Beck by email, LinkedIn, or GitHub.
   <p class="lede">Whether you’re working through a complex operating challenge, building something for a community, or just want to compare notes, I’d be glad to hear from you.</p>
 </section>
 
-<section class="section container contact-layout" aria-labelledby="contact-title">
+<section class="contact-layout" aria-labelledby="contact-title">
   <div class="contact-card">
     <p class="eyebrow">Reach out</p>
     <h2 id="contact-title">Let’s connect.</h2>
