@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Overview
-description: Garrett Beck is a U.S. Army medical leader and co-founder of MIL MOVE, focused on healthcare operations, leadership, and service.
+description: Garrett Beck is a U.S. Army medical leader, UC Berkeley Haas Full-Time MBA student expected to graduate in 2027, and co-founder of MIL MOVE.
 ---
 
 <section class="profile-panel" aria-labelledby="overview-title">
@@ -16,6 +16,7 @@ description: Garrett Beck is a U.S. Army medical leader and co-founder of MIL MO
     <ul class="profile-highlights">
       <li>Currently lead a medical readiness company of <strong>377 personnel</strong>, supporting care for more than <strong>70,000 beneficiaries.</strong></li>
       <li>Co-founded <strong>MIL MOVE</strong> to help service members navigate real estate and the moving process.</li>
+      <li>Attending the <strong>Full-Time MBA program at UC Berkeley Haas</strong>, with expected graduation in <strong>Spring 2027.</strong></li>
       <li>Earned a B.S. from the <strong>United States Military Academy</strong> with a concentration in Systems Engineering.</li>
     </ul>
   </div>

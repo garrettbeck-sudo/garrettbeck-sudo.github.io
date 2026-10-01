@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About
-description: Learn about Garrett Beck’s leadership background, education, and approach to solving complex challenges.
+description: Learn about Garrett Beck’s leadership background, UC Berkeley Haas Full-Time MBA education, and approach to solving complex challenges.
 ---
 
 <section class="page-hero container">
@@ -29,6 +29,45 @@ description: Learn about Garrett Beck’s leadership background, education, and 
       <h2 id="education-title">Education &amp; recognition</h2>
     </div>
     <div class="credential-list">
+      <article class="credential">
+        <div>
+          <p class="credential-kicker">2025 — 2027 · Expected Spring 2027</p>
+          <h3>UC Berkeley Haas School of Business</h3>
+          <p class="credential-program">Full-Time MBA (FTMBA)</p>
+        </div>
+        <div class="credential-details">
+          <p class="credential-description">At Berkeley Haas, the Full-Time MBA develops leaders through a rigorous, interdisciplinary curriculum grounded in business fundamentals, ethical leadership, and hands-on learning.</p>
+          <details class="coursework" open>
+            <summary>Selected coursework</summary>
+            <div class="coursework-grid">
+              <section class="coursework-term" aria-labelledby="coursework-fall-2025">
+                <h4 id="coursework-fall-2025">Fall 2025</h4>
+                <ul>
+                  <li>Data and Decisions</li>
+                  <li>Economics for Business Decision Making</li>
+                  <li>Financial Accounting</li>
+                  <li>Introduction to Finance</li>
+                  <li>Leading People</li>
+                  <li>Business Communication in Diverse Work Environments</li>
+                  <li>Marketing</li>
+                </ul>
+              </section>
+              <section class="coursework-term" aria-labelledby="coursework-spring-2026">
+                <h4 id="coursework-spring-2026">Spring 2026</h4>
+                <ul>
+                  <li>Macroeconomics in the Global Economy</li>
+                  <li>Operations</li>
+                  <li>Ethics and Responsibility in Business</li>
+                  <li>Strategic Leadership</li>
+                  <li>Strategic Brand Management</li>
+                  <li>Selected Topics for MBA Students</li>
+                  <li>Entrepreneurship</li>
+                </ul>
+              </section>
+            </div>
+          </details>
+        </div>
+      </article>
       <article class="credential">
         <div>
           <p class="credential-kicker">2014 — 2018</p>

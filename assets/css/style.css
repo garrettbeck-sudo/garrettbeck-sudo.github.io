@@ -307,6 +307,17 @@ html[data-theme="light"] .theme-toggle-moon { display: inline; }
 .credential h3 { color: var(--ink); font-size: 0.9rem; font-weight: 600; }
 .credential p:last-child { max-width: 570px; margin: 0; color: var(--ink-soft); font-size: 0.82rem; }
 .credential-kicker { margin: 0 0 4px; color: var(--gold); font-size: 0.68rem; font-weight: 650; letter-spacing: 0.08em; text-transform: uppercase; }
+.credential-program { margin: 4px 0 0; color: var(--ink-soft); font-size: 0.8rem; }
+.credential-details { min-width: 0; }
+.credential-description { max-width: 650px; margin: 0 0 12px; color: var(--ink-soft); font-size: 0.82rem; }
+.coursework { border-top: 1px solid var(--border); padding-top: 9px; }
+.coursework summary { color: var(--gold-strong); cursor: pointer; font-size: 0.76rem; font-weight: 650; }
+.coursework summary:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+.coursework-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin-top: 10px; }
+.coursework-term h4 { margin: 0 0 5px; color: var(--ink); font-size: 0.74rem; font-weight: 650; }
+.coursework-term ul { margin: 0; padding-left: 17px; color: var(--ink-soft); font-size: 0.75rem; }
+.coursework-term li { margin-bottom: 3px; }
+.coursework-term li::marker { color: var(--gold); }
 
 .timeline-heading { margin-bottom: 12px; }
 .timeline { margin-left: 8px; padding-left: 21px; border-left: 1px solid var(--border); }
@@ -379,6 +390,7 @@ html[data-theme="light"] .theme-toggle-moon { display: inline; }
   .stat-value { font-size: 1.12rem; }
   .stat-label { font-size: 0.64rem; }
   .credential { grid-template-columns: 1fr; gap: 5px; }
+  .coursework-grid { grid-template-columns: 1fr; gap: 10px; }
   .timeline { margin-left: 5px; padding-left: 16px; }
   .timeline-marker { left: -21px; }
   .timeline-meta { flex-direction: column; gap: 2px; }

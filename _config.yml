@@ -24,6 +24,8 @@ kramdown:
 exclude:
   - README.md
   - PLAN.md
+  - Change1.md
+  - Change2.md
   - attached_assets
   - .agents
   - .git
